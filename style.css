@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding-left: 260px;
+    font-size: 60px;
+}
+
+.divnav{
+    padding-right: 250px;
+}
+
+.divnav a {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: underline;
+    color: white;
+    font-size: 30px;
+}
+
+section{
+    margin-bottom: 50px;
+    display: flex;
+}
+
+section img {
+    width: 1500px;
+}
+
+.textos{
+    margin-left: 20px;
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+.textos h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+    height: 70px;
+    border-bottom: 4px solid black;
+    font-style: italic;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.textos p{
+    font-size: 25px;
+    
+}
+.produtos-botao {
+    display: flex;
+    width: 220px;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+
+.produtos-botao {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos-botao button{
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produtos-botao button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    
+    header {
+        width: 375px;
+        background-color: black;
+        color: white;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1{
+        padding-left: 20px;
+        font-size: 25px;
+    }
+    .divnav {
+        padding-right: 20px;
+    }
+    .divnav a {
+        padding-right: 10px;
+        padding-left: 10px;
+        text-decoration: underline;
+        color: white;
+        font-size: 15px;
+    }
+    
+    section{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section img {
+        width: 300px;
+        margin: auto;
+    }
+    
+    .textos{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+        border-bottom: 4px solid black;
+    }
+    .textos h2{
+        margin-top: 20px;
+        font-size: 25px;
+        margin-bottom: 50px;
+        height: 70px;
+        border-bottom: 4px solid black;
+        font-style: italic;
+        font-family: 'Ysabeau SC', sans-serif;
+    }
+    .textos p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 50px;
+        
+    }
+    
+    .produtos-botao {
+        width: 300px;
+        display: flex;
+        margin: auto;
+    }
+    
+    .produtos-botao button{
+        height: 50px;
+        border: none;
+        font-size: 20px;
+        margin-top: 10px;
+        background-color: rgb(124, 124, 124);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+}
+
+@media screen and (max-width: 820px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 820px;
+        margin: 0 auto;
+    }
+    
+    header {
+        width: 820px;
+        background-color: black;
+        color: white;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1{
+        padding-left: 20px;
+        font-size: 45px;
+    }
+    .divnav {
+        padding-right: 20px;
+    }
+    .divnav a {
+        padding-right: 10px;
+        padding-left: 10px;
+        text-decoration: underline;
+        color: white;
+        font-size: 25px;
+    }
+    
+    section{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section img {
+        width: 300px;
+        margin: auto;
+    }
+    
+    .textos{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+        border-bottom: 4px solid black;
+    }
+    .textos h2{
+        margin-top: 20px;
+        font-size: 25px;
+        margin-bottom: 50px;
+        height: 70px;
+        border-bottom: 4px solid black;
+        font-style: italic;
+        font-family: 'Ysabeau SC', sans-serif;
+    }
+    .textos p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    
+    .produtos-botao {
+        width: 300px;
+        display: flex;
+        margin: auto;
+        
+    }
+    
+    .produtos-botao button{
+        height: 50px;
+        border: none;
+        font-size: 20px;
+        margin-top: 10px;
+        background-color: rgb(124, 124, 124);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
